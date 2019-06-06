@@ -1,0 +1,46 @@
+.Gallery {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kosugi', sans-serif;
+  border: solid 10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 550px;
+  margin-right: 20px;
+  object-fit: cover;
+  background: rgb(108, 205, 226);
+}
+  .photos {
+    margin-left: 40px;
+    margin-right: 60px;
+    background: black;
+    border: solid;
+    justify-content: center;
+  }
+img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+img:hover {
+  transform: scale(1.1,1.1);
+  transition: transform 0.1s;
+}
+.Gallery:hover {
+  transform: scale(1.1,1.1);
+  transition: transform 0.1s;
+}
+body {
+  background: rgb(108, 205, 226);
+}
+h1 {
+  color: black;
+}
